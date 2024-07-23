@@ -50,5 +50,4 @@ func main() {
 	str_one, str_two := "first", "second"
 	fmt.Println(swap(str_one, str_two))
 	fmt.Println(split(110))
-
 }
