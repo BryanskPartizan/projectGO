@@ -22,5 +22,4 @@ func main() {
 	*p = *p / 10 // j changed because we operate with the memory reserved for j through the pointer
 	fmt.Println(j)
 	fmt.Println(*p)
-
 }
