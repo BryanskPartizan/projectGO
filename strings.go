@@ -22,4 +22,8 @@ func main() {
 	fmt.Println(strings.Compare(first_row, first_row))
 	fmt.Println(strings.Compare(second_row, first_row))
 
+	testString := "String with some words"
+	test := strings.Fields(testString)
+	fmt.Println(test)
+
 }
